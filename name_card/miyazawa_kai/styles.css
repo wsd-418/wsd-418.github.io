@@ -1,0 +1,24 @@
+.absolute { position: absolute; }
+.bg-gray-100 { background-color: #f7fafc; }
+.bg-gray-300 { background-color: #e2e8f0; }
+.bg-white { background-color: #ffffff; }
+.block { display: block; }
+.border-t { border-top: 1px solid; }
+.container { width: 100%; max-width: 640px; margin-right: auto; margin-left: auto; padding-right: 16px; padding-left: 16px; }
+.flex { display: flex; }
+.flex-1 { flex: 1; }
+.font-bold { font-weight: bold; }
+.gap-4 { gap: 1rem; }
+.grid { display: grid; }
+.grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.hidden { display: none; }
+.hover:bg-gray-100 { hover { background-color: #f7fafc; } }
+.hover:text-gray-900 { hover { color: #1a202c; } }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.justify-center { justify-content: center; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-8 { margin-top: 2rem; }
+.mx-auto { margin-right: auto; margin-left: auto; }

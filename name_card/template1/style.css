@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #bbb 1px solid;
+}
+
+header h1 {
+    padding: 5px 0;
+}
+
+.introduction {
+    padding: 15px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
