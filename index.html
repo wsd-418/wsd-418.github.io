@@ -1,68 +1,46 @@
-<!--<h1>This page is the homepage of 418.<br>
-It is currently under development.</h1>-->
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>418 コンピュータ勉強会サークル</title>
-	<meta name="discription" content="早稲田大学のコンピュータ勉強会サークル 418のサイトです。所沢キャンパスを中心にプログラミングやデザイン、ゲーム制作などを勉強する活動をしています。">
-	<link rel="icon" href="image/icon.ico">
-	<link rel="stylesheet" href="styles.css">
-	<script src="script.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>私のホームページ</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="back_ground">
-        <header>
-		    <h1>418</h1>
-		    <nav>
-			    <ul id="page-link">
-				    <li><a href="https://filemanager312.onamae.ne.jp">file manager(for developer)</a></li>
-					<!--<li><a href="#about">ホーム</a></li>
-    				<li><a href="#">活動内容</a></li>
-	    			<li><a href="#">メンバー</a></li>
-		    		<li><a href="#">お問い合わせ</a></li>-->
-			    </ul>
-		    </nav>
-	    </header>
+  <header>
+    <h1>こんにちは！私は <span id="name">Your Name</span> です</h1>
+    <p>ようこそ、私の自己紹介ページへ！</p>
+  </header>
 
-	    <section class="about_us", id="about_us">
-    		<h2>サークルの概要</h2>
-    		<p>早稲田大学のコンピュータ勉強会サークル 418のサイトです。<br>所沢キャンパスを中心にプログラミングやデザイン、ゲーム制作などを勉強する活動をしています。</p>
-    	</section>
+  <main>
+    <section>
+      <h2>プロフィール</h2>
+      <ul>
+        <li>出身地：〇〇県</li>
+        <li>趣味：プログラミング、読書、旅行</li>
+        <li>好きな言語：HTML / CSS / JavaScript</li>
+      </ul>
+    </section>
 
-    	<section class="about_us", id="about_us">
-    		<h2>現在会員募集中です。</h2>
-    		<p>418は、年間を通して会員を募集しています。<br>１年生に限らず、２〜４年生や院生の方も歓迎です。</p>
-    	</section>
+    <section>
+      <h2>私のリンク集</h2>
+      <ul>
+        <li><a href="https://github.com/your-username" target="_blank">GitHub</a></li>
+        <li><a href="mailto:your@email.com">メールで連絡</a></li>
+      </ul>
+    </section>
 
-    	<section class="about_us", id="about_us">
-    		<h2>現在、wsd418.comは開発中です</h2>
-    		<p>418での活動を通して今後機能を充実させていきます。お楽しみに。</p>
-    	</section>
-      
-      <section class="about_us", id="about_us">
-    		<h2>Contact</h2>
-        <p>mail:<a href="mailto:waseda.tokorozawait@gmail.com">waseda.tokorozawait@gmail.com</a><br></p>
-        <p><a href="https://twitter.com/wsd_418">twitter</a></p>
-          
-    	</section>
+    <section>
+      <h2>今日のひとこと</h2>
+      <p id="message">JavaScriptでメッセージが変わります！</p>
+      <button onclick="changeMessage()">メッセージを変える</button>
+    </section>
+  </main>
 
-    </div>
+  <footer>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
 
-    <style>
-        #back_ground {
-            width: 100%;
-            height: 100%;
-            background-color: gray;
-        }
-    </style>
-
-    <script>
-        particlesJS.load('back_ground', 'particlesjs-config.json')
-    </script>
+  <script src="script.js"></script>
 </body>
 </html>
